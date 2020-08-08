@@ -4,6 +4,7 @@ using namespace std;
 unsigned long long int return_largest_factor(unsigned long long int num_to_factor)
 {
     unsigned long long int largest_factor;
+    // ISSUE: is i<num_to_factor or i<=num_to_factor
     for (unsigned long long int i=3; i<num_to_factor; i+=2)
     {
         // cout<<"Loop value is: "<<i;
